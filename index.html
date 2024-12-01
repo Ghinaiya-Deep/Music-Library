@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Enhanced Music Player</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="music-player-container">
+            <h1 class="music-library-heading">Deep's Music Library</h1><br>
+            <div class="music-player">
+                <img src alt="Cover Art" class="cover-art" id="cover-art">
+                <h2 class="song-title" id="song-title">Song Title</h2>
+                <p class="song-author" id="song-author">Author Name</p>
+                <audio id="audio" src></audio>
+                <div class="controls">
+                    <button id="prev"
+                        class="control-btn">&#9664;&#9664;</button>
+                    <button id="play" class="control-btn">&#9658;</button>
+                    <button id="next"
+                        class="control-btn">&#9654;&#9654;</button>
+                </div>
+                <div class="progress-container">
+                    <div class="progress-bar" id="progress-bar"></div>
+                </div>
+                <div class="time-display">
+                    <span id="current-time">00:00</span> / <span
+                        id="duration">00:00</span>
+                </div>
+            </div>
+            </div>
+            <script src="script.js"></script>
+        </body>
+    </html>
